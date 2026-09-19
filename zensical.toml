@@ -1,0 +1,44 @@
+[project]
+site_name = "Logistix"
+site_url = "https://arminsarkozi.github.io/logistix"
+repo_url = "https://github.com/arminsarkozi/logistix"
+repo_name = "arminsarkozi/logistix"
+
+extra_css = [
+  "extra.css"
+]
+
+nav = [
+  { "Welcome to Logistix" = "index.md" },
+  { "Installation and setup" = "installation.md" },
+  { "First steps" = "first-steps.md" },
+  { "Full docs" = "full-docs.md" },
+  { "Blog" = "blog/index.md" }
+]
+
+[project.theme]
+name = "material"
+logo = "assets/vector/default-monochrome-white.svg"
+features = [
+  "navigation.top",
+  "search.suggest",
+  "search.highlight",
+  "content.code.copy"
+]
+
+[project.plugins.blog]
+blog_dir = "blog"
+post_dir = "{blog}/posts"
+archive = true
+categories = true
+pagination = true
+pagination_per_page = 5
+
+[markdown.extensions."pymdownx.highlight"]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[markdown.extensions."pymdownx.inlinehilite"]
+
+[markdown.extensions."pymdownx.superfences"]

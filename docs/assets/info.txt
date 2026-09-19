@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: nevis
+font link: http://tenbytwenty.com/?xxxx_posts=nevis
+font author: Ten by Twenty
+font author site: http://tenbytwenty.com/
+
+
+icon designer: Ian Rahmadi Kurniawan
+icon designer link: /creator/irakun/
+        
+{"bg":"#E6DFD7","icon":"#BEB3A6","font":"#BEB3A6","slogan":"#d2c7ba"}
+      

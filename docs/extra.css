@@ -1,0 +1,39 @@
+.md-header__button[for="__drawer"] {
+  display: none;
+}
+
+.md-header__button.md-logo {
+  display: flex;
+  align-items: center;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  display: block;
+  width: auto;
+  height: 2rem;
+  max-width: none;
+  filter: invert(1); /* Turns white SVG black/visible on white background */
+}
+
+nav.md-header__inner.md-grid span.md-ellipsis {
+  display: none;
+}
+
+.md-typeset hr {
+  border-bottom: .3rem solid black;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid black;
+}
+
+article.md-content__inner.md-typeset h4 {
+  background: black;
+  color: white;
+  padding-inline: .5rem;
+}

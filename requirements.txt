@@ -1,0 +1,2 @@
+ortools>=9.10
+zensical>=0.0.61

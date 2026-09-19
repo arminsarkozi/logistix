@@ -1,0 +1,32 @@
+[project]
+name = "logistix"
+version = "0.1.0"
+description = "A constraint-based scheduler for tasks and fixed events using Google OR-Tools."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Armin Sarkozi" }
+]
+
+[project.urls]
+Homepage = "https://github.com/arminsarkozi/logistix"
+Repository = "https://github.com/arminsarkozi/logistix"
+Issues = "https://github.com/arminsarkozi/logistix/issues"
+Documentation = "https://arminsarkozi.github.io/logistix/"
+
+requires-python = ">=3.9"
+dependencies = [
+  "ortools>=9.10",
+]
+
+[project.optional-dependencies]
+docs = [
+  "zensical>=0.0.61",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["logistix*"]
